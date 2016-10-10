@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //BP.init();
-
+        System.out.println("111111111111");
+        System.out.println("22222222222");
         //初始化fragment
         mainPageFragment=new MainpageFragment();
         shopingCartFragment=new ShopingCartFragment();
